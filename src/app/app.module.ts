@@ -14,7 +14,8 @@ import { CartComponent } from './cart/cart.component';
 		BrowserModule,
 		RouterModule.forRoot([
 			{ path: '', component: ProductListComponent },
-			{ path: 'products/:productId', component: ProductDetailsComponent }
+			{ path: 'products/:productId', component: ProductDetailsComponent },
+			{ path: 'cart', component: CartComponent }
 		])
 	],
 	declarations: [
